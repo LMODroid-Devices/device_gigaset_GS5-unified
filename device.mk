@@ -405,6 +405,10 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.5.vendor \
