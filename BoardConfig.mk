@@ -162,5 +162,8 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibi
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Inherit the proprietary files
 include vendor/gigaset/GS5/BoardConfigVendor.mk
