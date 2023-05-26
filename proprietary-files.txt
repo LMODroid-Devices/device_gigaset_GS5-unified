@@ -1348,8 +1348,6 @@ vendor/lib/libcvsd_mtk.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
-vendor/lib/libmtk_bsg.so
-vendor/lib64/libmtk_bsg.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkcutils.so
 vendor/lib/libmtkhardware_legacy.so
