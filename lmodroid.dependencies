@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "LMODroid/platform_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "LMODroid-Devices/kernel_gigaset_mt6768",
+    "target_path": "kernel/gigaset/mt6768"
+  }
+]
