@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/gigaset/GS5-unified/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_GS5
+PRODUCT_NAME := lmodroid_GS5
 PRODUCT_DEVICE := GS5
 PRODUCT_MANUFACTURER := gigaset
 PRODUCT_BRAND := gigaset
