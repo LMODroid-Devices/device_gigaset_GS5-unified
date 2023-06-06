@@ -172,6 +172,13 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor \
     vndservicemanager
 
+# NvramUtils
+PRODUCT_BOOT_JARS += \
+    NvramUtils
+
+PRODUCT_PACKAGES += \
+    NvramUtils
+
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
