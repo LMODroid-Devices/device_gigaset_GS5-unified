@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-util.vendor \
     android.hardware.audio@7.0.vendor \
     audio.bluetooth.default \
+    BesLoudness \
     libaudiofoundation.vendor \
     libbluetooth_audio_session \
     libalsautils \
