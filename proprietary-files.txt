@@ -661,7 +661,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
 # Factory
--app/DebugLoggerUI/DebugLoggerUI.apk
 -priv-app/EngineerMode/EngineerMode.apk
 -priv-app/PriFactoryTest/PriFactoryTest.apk
 lib64/libem_aoltest_jni.so
