@@ -288,7 +288,6 @@ system_ext/lib64/libdrmmtkwhitelist.so
 system_ext/lib64/libjni_bstbeauty.so
 system_ext/lib64/libjni_bstfilter.so
 system_ext/lib64/libjni_uvpanorama.so
-system_ext/lib64/libloadfilterapp.so
 system_ext/lib64/libmcv_runtime_usdk.mtk.so
 system_ext/lib64/libmdloggerrecycle.so
 system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so
@@ -325,8 +324,7 @@ system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
 system_ext/lib64/vendor.mediatek.hardware.audio@7.1.so
-system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+system_ext/lib64/vendor.mediatek.hardware.audio@8.1.so
 system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.log@1.0.so
@@ -334,16 +332,8 @@ system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
-system_ext/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.10.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.11.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.12.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.13.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.14.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.4.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.6.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.7.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.9.so
+system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Camera
 lib64/libjni_pq.so
@@ -538,14 +528,10 @@ lib64/vendor.mediatek.hardware.pq@2.0.so
 lib64/vendor.mediatek.hardware.pq@2.1.so
 lib64/vendor.mediatek.hardware.pq@2.2.so
 lib64/vendor.mediatek.hardware.pq@2.3.so
-lib64/vendor.mediatek.hardware.pq@2.5.so
-lib64/vendor.mediatek.hardware.pq@2.8.so
 lib/vendor.mediatek.hardware.pq@2.0.so
 lib/vendor.mediatek.hardware.pq@2.1.so
 lib/vendor.mediatek.hardware.pq@2.2.so
 lib/vendor.mediatek.hardware.pq@2.3.so
-lib/vendor.mediatek.hardware.pq@2.5.so
-lib/vendor.mediatek.hardware.pq@2.8.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/AbnormalDisplayLog_dynamic.xml
@@ -678,23 +664,15 @@ vendor/lib64/libwvhidl.so
 -app/DebugLoggerUI/DebugLoggerUI.apk
 -priv-app/EngineerMode/EngineerMode.apk
 -priv-app/PriFactoryTest/PriFactoryTest.apk
-priv-app/PriFactoryTest/lib/arm64/libserial_port_app.so:lib64/libserial_port_app.so
 lib64/libem_aoltest_jni.so
 lib64/libem_audio_jni.so
 lib64/libem_support_jni.so
-lib64/libem_usb_jni.so
 lib64/libem_wifi_jni.so
 
 # MDlogger
-system_ext/bin/emdlogger1
-system_ext/bin/emdlogger2
-system_ext/bin/emdlogger3
-system_ext/bin/emdlogger5
+system_ext/bin/emdlogger
 system_ext/bin/mdlogger
-system_ext/etc/init/emdlogger1.rc
-system_ext/etc/init/emdlogger2.rc
-system_ext/etc/init/emdlogger3.rc
-system_ext/etc/init/emdlogger5.rc
+system_ext/etc/init/emdlogger.rc
 system_ext/etc/init/mdlogger.rc
 lib/libmemoryDumpEncoder.so
 lib64/libmemoryDumpEncoder.so
