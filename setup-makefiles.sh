@@ -42,7 +42,7 @@ ifneq (\$(filter GS5 mimameid,\$(TARGET_DEVICE)),)
 
 RADIO_FILES := \$(wildcard \$(LOCAL_PATH)/radio/\$(TARGET_DEVICE)/*)
 \$(foreach f, \$(notdir \$(RADIO_FILES)), \\
-    \$(call add-radio-file,radio/\$(f)))
+    \$(call add-radio-file,radio/\$(TARGET_DEVICE)/\$(f)))
 
 EOF
 
