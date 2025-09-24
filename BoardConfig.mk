@@ -88,7 +88,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072                   # 2048      * 64   (pagesize)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432         # 32768     * 1024
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608            # 8192      * 1024
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 115445039104
-BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
+#USERDATAIMAGE := f2fs
 BOARD_SUPER_PARTITION_SIZE := 8589934592
 BOARD_USES_METADATA_PARTITION := true
 
@@ -157,7 +157,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/lmodroid/config/device_framework_matrix.xml
 
 # VNDK
 BOARD_VNDK_VERSION := current
